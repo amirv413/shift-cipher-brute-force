@@ -17,4 +17,4 @@ Shahid Beheshti University
 ## 🚀 Installation & Run
 ```bash
 pip install -r requirements.txt
-python shift_cipher.py
+python shift_cipher_bf.py
