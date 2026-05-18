@@ -56,7 +56,7 @@ number_to_letter = {v: k for k, v in letter_to_number.items()}
 
 k = randint(0, 25)
 
-app_name = figlet_format("Shift Cipher Brute Force",font="standard")
+app_name = figlet_format("Shift Cipher Brute Force",font="slant")
 app_name = colored(app_name,color="yellow")
 print(app_name)
 
@@ -85,5 +85,6 @@ for key in range(26):
         break
     else:
         print(f"Key {key} -> {decrypted}  (not found ❌ )")
+        
         
         
